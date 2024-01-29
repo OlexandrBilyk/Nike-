@@ -1,0 +1,122 @@
+:root{
+   --project-white:#FFF;
+}
+.header{
+    background-color:#012D63;
+    padding: 16px 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+button{
+    cursor: pointer;
+}
+.container{
+    width: 1110px;
+    padding: 15px;
+    margin: 0 auto;
+}
+p, h1, h2, h3, h4, h5, ul, button{
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+header .container{
+    display: flex;
+    align-items: center;
+    gap: 73px;
+}
+.header_pages{
+    display: flex;
+    gap: 152px;
+}
+.header_list{
+    display: flex;
+    gap: 29px;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    height: 60px;
+}
+.header_list_link{
+    color: #C7C7C7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.header_texte{
+    color: #DCDCDC;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.header_texte_span{
+    color: #FFF;
+font-family:' Roboto', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+/* hero */
+.hero{
+    background-image: url('../images/heroimg.jpg');
+    height: 858px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero_img{
+    width: 160px;
+    height: 120px;
+}
+/* descr */
+.descr{
+    background-image: url('../images/descr_back.jpg');
+    background-size: cover;
+    height: 606px;
+}
+.reviews{
+    height: 606px;
+    background-image: url('../images/reviews_back.jpg'),url('../images/flowers.svg');
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, left;
+    
+}
+/* order */
+.order{
+    height: 509px;
+    background-image: url('../images/order.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.order_textarea{
+    width: 690px;
+    height: 60px;
+    border-radius: 50px;
+}
+.order_input{
+    border-radius: 50px;
+    width: 580px;
+    height: 50px;
+}
+/* footer */
+footer{
+    height: 292px;
+    background-color: #021635;
+}
+.footer_logo{
+    width: 108px;
+    height: 81px;
+}
