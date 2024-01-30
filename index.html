@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     <title>Nike</title>
@@ -22,7 +25,9 @@
             <li class="header_list_item"><a href="#" class="header_list_link">Order</a></li>
     </ul>
 </div>
-    <p class="header_texte">Ua  <span class="header_texte_span">Eng</span></p>
+
+    <p class="header_texte">Ua      <span class="header_texte_span"> Eng</span></p>
+
 </div>
     </header>
     <main class="main">
@@ -32,37 +37,41 @@
             <p class="hero_texte">С&R</p>
             <h1 class="hero_main_title">ColoRawe</h1>
             <h2 class="hero_title">Your dream Nike</h2>
+            <div class="hero_div">
             <p class="hero_texte2">On this site you can find custom Nike sneakers of your dreams. 
                 The original company caт`t create such beautiful 
                 sneakers as we do.
                 Good luck finding your way in the world of custom sneakers.</p>
-            <button type="button">Buy my Nike</button>
+            </div>
+            <button type="button" class="hero_btn">Buy my Nike</button>
+            
         </div>
         </section>
         <section class="descr">
             <div class="container">
            <ul class="descr_list">
             <li class="descr_list_item">
-                <h3 class="descr_list_texte">Premium
+                <h3 class="descr_list_title">Premium
                     Quality</h3>
                 <img src="./images/stars.svg" alt="human_with_star" class="descr_img">
             </li>
             <li class="descr_list_item">
                 
                 <img src="./images/spray.svg" alt="spray" class="descr_img">
-                <h3 class="descr_list_texte">Indelible 
+                <h3 class="descr_list_title">Indelible 
                     paint</h3>
             </li>
             <li class="descr_list_item">
-                <h3 class="descr_list_texte">Fast 
+                <h3 class="descr_list_title">Fast 
                     shipping</h3>
                 <img src="./images/truck.svg" alt="truck" class="descr_img">
             </li>
            </ul>
+        </section>
         </div>
            <section class="reviews">
             <div class="container">
-            <h2>
+            <h2 class="reviews_title">
                 Reviews
             </h2>
             <ul class="reviews_list">
@@ -92,22 +101,26 @@
             </ul>
         </div>
            </section>
-           <div class="container">
            <section class="order">
-            <form action="" class="order_form">
+             <div class="container">
+                <h2 class="order_title">Order</h3>
+            <form class="order_form">
                 <div class="order_form_div">
-                    <textarea name="" id="" cols="30" rows="10" class="order_textarea"></textarea>
-                    <input type="text" class="order_input">
-                    <input type="text" class="order_input">
-                    <input type="text" class="order_input">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Write your email" class="order_textarea"></textarea>
+                    <input type="text" name="country" placeholder="Your Country" class="order_input">
+                    <input type="text" name="city" placeholder="Your City" class="order_input">
+                    <input type="text" name="adress" placeholder="Your Adress" class="order_input">
                 </div>
-                <button type="submit">Order my Nike</button>
+                <button type="submit" class="order_form_btn">Order my Nike</button>
+              
             </form>
         </div>
            </section>
     </main>
-    <!-- <footer class="footer">
+    <footer class="footer">
+        <div class="container">
         <div class="footer_div1">
+        <div class="footer_div2">
             <p class="footer_question">
             Have a question?   
             </p>
@@ -118,16 +131,28 @@
             Advertising questions?  
             </p>
         </div>
-        <div class="footer_div2">
-            <a href="#">ColoRawe_support@gmail.com</a>
-            <a href="#">ColoRawe_Cooperation@gmail.com</a>
-            <a href="#">ColoRawe_Advertising@gmail.com</a>
+        <div class="footer_div3">
+            <a href="#" class="footer_email">ColoRawe_support@gmail.com</a>
+            <a href="#" class="footer_email">ColoRawe_Cooperation@gmail.com</a>
+            <a href="#" class="footer_email">ColoRawe_Advertising@gmail.com</a>
         </div>
-        <hr>
+        </div>
+        <hr class="footer_hr">
+        <div class="footer_div6">
+        <div class="footer_div4">
         <p class="footer_texte">2022 ColoRawe @All rights reserved</p>
-        <p class="footer_texte2">United States</p>
-        <img src="./images/logo.svg" alt="nike_logo" class="footer_logo">
-        <p class="footer_logo_texte">С&R</p>
-    </footer> -->
+        <p class="footer_texte">United States</p>
+        </div>
+
+        <div class="footer_div5"> 
+        <img src="./images/logo.svg" alt="nike_logo" class="footer_logo" >
+        <p class="footer_logo_texte">С&R</p> 
+        </div>
+        </div>
+        
+    </div>
+    </div>
+    </footer>
+    
 </body>
 </html>
