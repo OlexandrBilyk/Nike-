@@ -19,6 +19,11 @@ p, h1, h2, h3, h4, h5, ul, button{
     padding: 0;
     margin: 0;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    line-height: normal;
+}
 
 /* header */
 .header{
@@ -44,11 +49,9 @@ header .container{
 
 .header_list_link{
     color: #C7C7C7;
-    font-family: 'Roboto', sans-serif;
     font-size: 24px;
-    font-style: normal;
+    
     font-weight: 300;
-    line-height: normal;
     
 }
 .header_list_link:hover{
@@ -56,12 +59,10 @@ header .container{
 }
 .header_texte{
     color: #DCDCDC;
-
-    font-family: 'Roboto', sans-serif;
     font-size: 24px;
-    font-style: normal;
+    
     font-weight: 300;
-    line-height: normal;
+    
     display: flex; 
     gap: 15px;  
 }
@@ -69,9 +70,9 @@ header .container{
     color: var(--project-white);
     font-family:' Roboto', sans-serif;
     font-size: 24px;
-    font-style: normal;
+  
     font-weight: 400;
-    line-height: normal;
+    
 }
 
 /* hero */
@@ -91,35 +92,33 @@ header .container{
     color: var(--project-white);
     font-family: "PT Serif", sans-serif;
     font-size: 48px;
-    font-style: normal;
+    
     font-weight: 400;
-    line-height: normal;
+    
 }
 .hero_main_title{
     color: var(--project-white);
     font-family: "Playfair Display", serif;
     font-size: 144px;
-    font-style: normal;
+   
     font-weight: 400;
-    line-height: normal;
+    
 }
 .hero_title{
     color: var(--project-white);
     font-family: "Playfair Display",serif;
     font-size: 72px;
-    font-style: normal;
+    
     font-weight: 400;
-    line-height: normal;
+    
     margin-bottom: 12px;
-    margin-left: 8px;
 }
 .hero_texte2{
     color: var(--project-white);
-    font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    font-style: normal;
+   
     font-weight: 400;
-    line-height: normal;
+    
     margin-bottom: 41px;
 }
 .hero_btn{
@@ -127,11 +126,10 @@ header .container{
     background-color: #8E32C6;
 
     color: #FFF;
-    font-family: 'Roboto', sans-serif;
     font-size: 24px;
-    font-style: normal;
+    
     font-weight: 400;
-    line-height: normal;
+    
     padding: 20px 69px;
 }
 .hero_div{
@@ -140,9 +138,8 @@ header .container{
 
 /* descr */
 .descr{
-    background-image: url('../images/descr_back.jpg');
+    background-image:url('../images/descr_back.jpg');
     background-size: cover;
-    height: 606px;
     padding: 105px 0;
 }
 .descr_list{
@@ -153,18 +150,23 @@ header .container{
     align-items: center;
     justify-content: space-around;
     margin: 0 auto;
+    
+    
 }
 .descr_list_item{
     width: 250px;
+}
+.descr_list_item:nth-child(2),.descr_list_item:nth-child(3) {
+    /* border-left: 1px solid #fff; */    
 }
 .descr_list_title{
     color: var(--project-white);
     text-align: center;
     font-family: "Playfair Display", serif;
     font-size: 36px;
-    font-style: normal;
+ 
     font-weight: 400;
-    line-height: normal;
+    
     margin: 0 auto;
     width: 151px;
 }
@@ -172,10 +174,10 @@ header .container{
 /* reviews */
 .reviews{
     padding: 114px 0;
-    background-image: url('../images/reviews_back.jpg');
-    background-size: cover;
+    background-image:url('../images/flower.svg'),url('../images/reviews_back.jpg');
+    background-size: auto, cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:left bottom, center;
 }
 .reviews_list{
     display: flex;
@@ -188,9 +190,9 @@ header .container{
     text-align: center;
     font-family: "Playfair Display", serif;
     font-size: 48px;
-    font-style: normal;
+    
     font-weight: 400;
-    line-height: normal;
+    
     margin-bottom: 24px;
 }
 .reviews_list_item{
@@ -217,21 +219,19 @@ box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
 }
 .reviews_list_texte{
     color: var(--project-white);
-    font-family:'Roboto', sans-serif;
     font-size: 24px;
-    font-style: normal;
+   
     font-weight: 400;
-    line-height: normal;
+    
     width: 228px;
     margin: 0 0 8px;
 }
 .reviews_list_texte2{
     color: #D8D8D8;
-    font-family: 'Roboto',sans-serif;
     font-size: 14px;
-    font-style: normal;
+   
     font-weight: 400;
-    line-height: normal;
+    
     margin-bottom: 47px;
     width: 228px;
 
@@ -239,19 +239,17 @@ box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
 }
 .reviews_list_title{
     color: var(--project-white);
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    font-style: normal;
+   
     font-weight: 400;
-    line-height: normal;
+    
 }
 .reviews_list_texte3{
     color: #D8D8D8;
-    font-family: 'Roboto', sans-serif;
     font-size: 12px;
-    font-style: normal;
+  
     font-weight: 400;
-    line-height: normal;
+    
 }
 /* order */
 .order{
@@ -264,9 +262,9 @@ box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
     color: var(--project-white);
     font-family: "Playfair Display", serif;
     font-size: 48px;
-    font-style: normal;
+    
     font-weight: 400;
-    line-height: normal;
+    
     margin-bottom: 33px;
     text-align: center;
 }
@@ -281,11 +279,10 @@ box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
     border-radius: 50px;
     
     color: #959595;
-    font-family: 'Roboto', sans-serif;
     font-size: 28px;
-    font-style: normal;
+    
     font-weight: 400;
-    line-height: normal;
+    
     padding: 12px 0 12px 25px;
 }
 .order_input{
@@ -295,22 +292,20 @@ box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
     margin-top: 19px;
     padding: 11px 0 11px 24px;color: #959595;
 
-    font-family: 'Roboto', sans-serif;
     font-size: 24px;
-    font-style: normal;
+    
     font-weight: 400;
-    line-height: normal;
+    
 }
 .order_form_btn{
     border-radius: 16px;
     background-color: #8E32C6;
 
     color: var(--project-white);
-    font-family: 'Roboto', sans-serif;
     font-size: 24px;
-    font-style: normal;
+    
     font-weight: 400;
-    line-height: normal;
+    
     padding: 20px 48px;
     display: block;
     margin: 19px auto;
@@ -331,11 +326,10 @@ footer{
 }
 .footer_question{
     color: var(--project-white);
-    font-family: 'Roboto', sans-serif;
     font-size: 24px;
-    font-style: normal;
+    
     font-weight: 400;
-    line-height: normal;
+    
 }
 .footer_div2{
     display: flex;
@@ -350,21 +344,19 @@ footer{
 .footer_email{
     color: var(--project-white);
 
-    font-family:'Roboto', sans-serif;
     font-size: 24px;
-    font-style: normal;
+    
     font-weight: 400;
-    line-height: normal;
+    
     text-decoration-line: underline;
 }
 .footer_texte{
     color: var(--project-white);
 
-    font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    font-style: normal;
+    
     font-weight: 400;
-    line-height: normal;    
+      
 }
 .footer_hr{
     background-color: #9B9B9B;
@@ -389,11 +381,11 @@ footer{
 }
 .footer_logo_texte{
     color: var(--project-white);
-    font-family: "PT Serif",serif;
+    font-family: "PT Serif", serif;
     font-size: 24px;
-    font-style: normal;
+    
     font-weight: 400;
-    line-height: normal;
+    
 }
 .footer_div6{
     display: flex;
