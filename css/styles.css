@@ -326,10 +326,14 @@ footer{
     font-size: 18px;
     font-weight: 400;
 }
+.footer_texte:nth-child(1){
+    margin-bottom: 5px;
+}
 .footer_hr{
     background-color: #9B9B9B;
     width: 1110px;
     height: 1px;
+    margin-top: 20px;
 }
 .footer_div1{
     display: flex;
