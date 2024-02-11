@@ -92,7 +92,7 @@ header .container{
     display: block;
     padding-left:24px;
 }
-.hero_span{
+.hero_sign{
     color: var(--project-white);
     font-family: "PT Serif", sans-serif;
     font-size: 48px;
@@ -346,7 +346,7 @@ footer{
     flex-direction: column;
     align-items: center;
 }
-.footer_logo_texte{
+.footer_sign{
     color: var(--project-white);
     font-family: "PT Serif", serif;
     font-size: 24px;
