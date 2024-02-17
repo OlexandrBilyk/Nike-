@@ -30,7 +30,7 @@
      font-weight: 400;
  }
  
- /* header */
+ 
  .header{
      padding: 16px 0;
      background-color:var(--background-blue);
@@ -63,25 +63,19 @@
      color: var(--project-white);
  }
  .header_link{
-     color: var(--project-white);
+     color: #DCDCDC;
      font-size: 24px;
-     color: #c7c7c7;
      font-weight: 300;
-     
      display: flex; 
      gap: 15px;  
  }
  .header_link_span{
-    
-    color: var(--project-white);
+     color: var(--project-white);
      font-family:' Roboto', sans-serif;
      font-size: 24px;
-   
-     font-weight: 400;
-     
  }
  
- /* hero */
+ 
  .hero{
      background-image: url('../images/heroimg.jpg');
      background-repeat: no-repeat;
@@ -129,7 +123,7 @@
      font-size: 24px;
      padding: 20px 69px;
  }
- /* descr */
+ 
  .descr{
      background-image:url('../images/descr_back.jpg');
      background-size: cover;
@@ -168,7 +162,7 @@
      max-width: 151px;
  }
  
- /* reviews */
+ 
  .reviews{
      padding: 25px 0 114px;
      background-image:url('../images/flower.svg'),url('../images/reviews_back.jpg');
@@ -213,7 +207,6 @@
  .reviews_list_texte{
      color: var(--project-white);
      font-size: 24px;
-     font-weight: 400;
      margin: 0 0 8px;
  }
  .reviews_list_date{
@@ -237,7 +230,7 @@
      color: #D8D8D8;
      font-size: 12px;
  }
- /* order */
+ 
  .order{
      padding: 21px 0 37px;
      background-image: url('../images/order.jpg');
@@ -267,7 +260,6 @@
      height: 60px;
      color: #959595;
      font-size: 28px;
-     font-weight: 400;
      padding: 12px 0 12px 25px;
  }
  .order_input{
@@ -279,7 +271,6 @@
      border: none;
      font-size: 24px;
      background-color: #FFF;
-     font-weight: 400;
  
      
  }
@@ -288,14 +279,13 @@
      background-color: var(--project-purple);
      color: var(--project-white);
      font-size: 24px;
-     font-weight: 400;
      width:248px ;
      height:68px ;
      display: block;
      margin: 0 auto;
  }
  
- /* footer */
+ 
  footer{
      background-color: #021635;
      padding: 50px 0;
@@ -311,13 +301,11 @@
  .footer_list_question{
      color: var(--project-white);
      font-size: 24px;
-     font-weight: 400;
      margin-top: 10px;
  }
  .footer_list_email{
      color: var(--project-white);
      font-size: 24px;
-     font-weight: 400;
      text-decoration-line: underline;
      margin-top: 10px;
  
@@ -325,7 +313,6 @@
  .footer_texte{
      color: var(--project-white);
      font-size: 18px;
-     font-weight: 400;
  }
  .footer_texte:nth-child(1){
      margin-bottom: 5px;
@@ -351,9 +338,6 @@
      color: var(--project-white);
      font-family: "PT Serif", serif;
      font-size: 24px;
-     
-     font-weight: 400;
-     
  }
  .footer_info{
      display: flex;
