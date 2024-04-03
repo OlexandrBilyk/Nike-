@@ -44,7 +44,7 @@
                 sneakers as we do. <br>
                 Good luck finding your way in the world of custom sneakers.</p>
 
-            <button type="button" class="hero_btn">Buy my Nike</button>
+            <button type="button" class="hero_btn" data-open-form-modal>Buy my Nike</button>
             
         </div>
         </section>
@@ -122,11 +122,11 @@
                 <h3 class="order_title">Order</h3>
             <form class="order_form">
                 
-                    <input type="text" name="email" placeholder="Write your email" class="order_input">
+                    <input type="email" name="email" placeholder="Write your email" class="order_input" required>
                     <button class="order-form__btn" type="button"> Confirm </button>
-                    <input type="text" name="country" placeholder="Your Country" class="order_input">
-                    <input type="text" name="city" placeholder="Your City" class="order_input">
-                    <input type="text" name="adress" placeholder="Your Adress" class="order_input">
+                    <input type="text" name="country" placeholder="Your Country" class="order_input" required>
+                    <input type="text" name="city" placeholder="Your City" class="order_input" required>
+                    <input type="text" name="adress" placeholder="Your Adress" class="order_input" required>
                 
                 <button type="submit" class="order_form_btn">Order my Nike</button>
               
@@ -165,5 +165,67 @@
     </section>
     </div>
     </footer>
+
+    <div class="backdrop is-hidden" .backdrop>
+        
+        <div class="modal-form">
+            <div class="modal-logo">
+            <img src="./images/logo.svg" alt="logo_nike" class="hero_img">
+            <span class="hero_sign">С&R</span>
+            </div>
+            <form class="modal-form__payment">
+                
+                <h3 class="modal-payment__title">
+                    Payment card
+                </h3>
+                <div class="modal-payment__pages">
+                <div class="modal-payment__left">
+                <label for="Card_number" class="modal-payment__label">
+                    Card number
+                </label>
+                <input type="text" class="modal-payment__input" id="Card_number" required minlength="16" maxlength="16" placeholder="1111 1111 1111 1111">
+                <label for="Data_ending" class="modal-payment__label">
+                    Date of ending
+                </label>
+                <input type="text" class="modal-payment__input" id="Data_ending" required placeholder="01/01">
+                <label for="code" class="modal-payment__label">
+                    Secret code
+                </label>
+                <input type="text" class="modal-payment__input" id="code" required minlength="3" placeholder="001">
+                </div>
+                <div class="modal-payment__right">
+                    <div class="modal-payment__card">
+                    </div>
+                    <div class="modal-payment__card">
+                    </div>
+                    <label for="modal-payment__check" class="modal-payment__text" >
+                    <input type="checkbox" class="modal-payment__check" id="modal-payment__check">
+                    
+                        Remember data
+                    </label>
+                </div>
+            </div>
+
+            </form>  
+            <form class="modal-form__order">
+                <h3 class="modal-form__title">
+                    Final Order
+                </h3>
+                <input type="text" class="modal-form__input" required  placeholder="Write your first name and last name ">
+                <input type="text" class="modal-form__input" required maxlength="2" placeholder="Write your foot size">
+
+                <img src="./images/Nike.svg" alt="Nike" class="modal-form__icon">
+                <span class="modal-form__price">299$</span>
+                <button class="modal-form__close" data-close-form-modal>
+                Buy my Nike
+            </button>
+            </form>
+            
+            
+
+        </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
 </body>
 </html>
