@@ -211,21 +211,19 @@
                 <h3 class="modal-form__title">
                     Final Order
                 </h3>
-                <input type="text" class="modal-form__input" required  placeholder="Write your first name and last name ">
-                <input type="text" class="modal-form__input" required maxlength="2" placeholder="Write your foot size">
+                <input type="text" class="modal-form__input" required  placeholder="Write your first name and last name " id="myInput">
+                <input type="text" class="modal-form__input" required maxlength="2" placeholder="Write your foot size" id="myInput">
 
                 <img src="./images/Nike.svg" alt="Nike" class="modal-form__icon">
                 <span class="modal-form__price">299$</span>
-                <button class="modal-form__close" data-close-form-modal>
+                <button class="modal-form__close" data-close-form-modal type="submit" id="myButton" disabled>
                 Buy my Nike
             </button>
             </form>
-            
-            
-
         </div>
     </div>
-
+    </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/validation.js"></script>
 </body>
 </html>

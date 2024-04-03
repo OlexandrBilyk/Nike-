@@ -9,6 +9,9 @@ a{
 ul{
     list-style-type: none;
 }
+input{
+    outline: none;
+}
 button{
     cursor: pointer;
     border: none;
@@ -513,7 +516,7 @@ footer{
     font-weight: 400;
     font-size: 28px;
     color: #959595;
-    text-align: center;
+    padding: 6px 21px;
 
     border: 1px solid #000;
     border-radius: 50px;
@@ -528,7 +531,6 @@ footer{
     border-radius: 10px;
     padding: 25px 6px;
     margin-bottom: 10px;
-    
 }
 .modal-form__price{
     font-weight: 400;
@@ -549,4 +551,14 @@ footer{
     font-weight: 400;
     font-size: 24px;
     color: #fff;
+}
+.modal-form__close:disabled{
+    
+    background-color: grey;
+    color: #666;
+    cursor: not-allowed;
+}
+/* modal2 */
+.backdrop2{
+    background-image: url('../images/order.jpg');
 }

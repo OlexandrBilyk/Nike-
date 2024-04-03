@@ -4,10 +4,7 @@ const refsForm = {
    closeModalBtnForm: document.querySelector("[data-close-form-modal]"),
    backdropForm: document.querySelector(".backdrop"),
  };
-
-
-
-
+// refsForm 
  refsForm.openModalBtnForm.addEventListener("click", toggleModalForm);
  refsForm.closeModalBtnForm.addEventListener("click", toggleModalForm);
 
@@ -22,3 +19,4 @@ const refsForm = {
      document.body.style.overflow = 'hidden';
    }
  }
+ 
